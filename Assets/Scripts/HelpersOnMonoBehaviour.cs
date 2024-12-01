@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HelpersOnMonoBehaviour : MonoBehaviour
 {
-    public void QuitApplication()
+    public void QuitApplication()  //quit the game feature
     {
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
