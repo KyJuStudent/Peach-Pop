@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     float totalTime = 60f;
     bool isGameActive = true;
+    public GameObject HUD;
+    public GameObject TargetCanvas;
 
     // Update is called once per frame
     void Update()
@@ -24,5 +26,7 @@ public class GameManager : MonoBehaviour
     void GameOver()
     {
         isGameActive = false;
+        HUD.SetActive(false);
+        TargetCanvas.SetActive(false);
     }
 }

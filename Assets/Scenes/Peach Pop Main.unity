@@ -711,6 +711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b20fc4515a3fa47828e47ce54032a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HUD: {fileID: 919550383}
+  TargetCanvas: {fileID: 2117819162}
 --- !u!4 &490268829
 Transform:
   m_ObjectHideFlags: 0
@@ -1399,7 +1401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &919550384
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3198,7 +3200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2117819163
 RectTransform:
   m_ObjectHideFlags: 0
