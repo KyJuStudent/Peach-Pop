@@ -28,4 +28,9 @@ public class ScoreManager : MonoBehaviour
         score += scoreAdd;
         scoreText.text =  "Points: " + score.ToString();
     }
+
+    public void ClearScore()
+    {
+        scoreText.text = "Points: ";
+    }
 }
