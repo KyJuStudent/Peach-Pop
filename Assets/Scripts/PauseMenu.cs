@@ -28,6 +28,6 @@ public class PauseMenu : MonoBehaviour
 
     public void ScoreClear()
     {
-        scoreText.text = "Points: ";
+        scoreText.text = "Score: ";
     }
 }
