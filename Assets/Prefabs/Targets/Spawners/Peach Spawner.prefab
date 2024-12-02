@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1787028687816643221}
-  - component: {fileID: 2908494533698123848}
+  - component: {fileID: 7873651600898467248}
   m_Layer: 0
   m_Name: Peach Spawner
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2908494533698123848
+--- !u!114 &7873651600898467248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2091124084403274236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2358ae2be078424d83c635e2b948db7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a617dc9d8f919c4b9fb99fedc2a81c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetPrefab: {fileID: 0}
-  minimumSpawnTime: 2
-  maximumSpawnTime: 5
+  TargetPrefab: {fileID: 682710868360721108, guid: ba6a1b4a711a9a54f9815f43edb425a0, type: 3}
+  minimumSpawnTime: 12
+  maximumSpawnTime: 15

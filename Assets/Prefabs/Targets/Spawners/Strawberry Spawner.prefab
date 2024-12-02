@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6362891359029863780}
-  - component: {fileID: 7872074353669988141}
+  - component: {fileID: 9213843046013850811}
   m_Layer: 0
   m_Name: Strawberry Spawner
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7872074353669988141
+--- !u!114 &9213843046013850811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3403492890860009624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2358ae2be078424d83c635e2b948db7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a617dc9d8f919c4b9fb99fedc2a81c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetPrefab: {fileID: 0}
-  minimumSpawnTime: 2
-  maximumSpawnTime: 5
+  TargetPrefab: {fileID: 1681102186534658519, guid: 3d93197f973caf142806ce7f5d8deb56, type: 3}
+  minimumSpawnTime: 5
+  maximumSpawnTime: 8

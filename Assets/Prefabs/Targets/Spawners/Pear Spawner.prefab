@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8868997324309799228}
-  - component: {fileID: 890624858574566077}
+  - component: {fileID: 458656203625277176}
   m_Layer: 0
   m_Name: Pear Spawner
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &890624858574566077
+--- !u!114 &458656203625277176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1783474601438704267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2358ae2be078424d83c635e2b948db7, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a617dc9d8f919c4b9fb99fedc2a81c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetPrefab: {fileID: 0}
-  minimumSpawnTime: 2
-  maximumSpawnTime: 5
+  TargetPrefab: {fileID: 968208981632192751, guid: da61fccaab2a71a459b8ab493ffb306d, type: 3}
+  minimumSpawnTime: 3
+  maximumSpawnTime: 6
