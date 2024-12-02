@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
     public void MainMenu()
     {
         ScoreClear();
-        Time.timeScale = 1;
+        Time.timeScale = 0;
     }
 
     public void Resume()

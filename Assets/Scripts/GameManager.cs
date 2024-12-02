@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     float totalTime = 60f; //round time
     bool isGameActive = true; //game active state
+    public Text timerText;
+
     public GameObject HUD; //set HUD for deactivation
     public GameObject TargetCanvas; //canvas to turn off
 
@@ -15,13 +17,21 @@ public class GameManager : MonoBehaviour
 
     public GameObject CongratulationsScreen;    //connects to end game screen
 
-
+    public void Start()
+    {
+        isGameActive = false;
+    }
     // Update is called once per frame
     void Update()
     {
         if (isGameActive)               //counts timer down
         {
             totalTime -= Time.deltaTime;
+
+            int minutes = Mathf.FloorToInt(totalTime / 60);
+            int seconds = Mathf.FloorToInt(totalTime % 60);
+
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
             if (totalTime <= 0)     //activates game over method when timer hits zero
             {
@@ -42,5 +52,14 @@ public class GameManager : MonoBehaviour
     public void FinalScore()
     {
         finalScore.text = scoreText.text;
+    }
+
+    //main menu methods
+
+    public void PlayButton()
+    {
+        totalTime = 60f;
+        Time.timeScale = 1;
+        isGameActive = true;
     }
 }
